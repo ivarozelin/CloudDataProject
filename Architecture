@@ -1,0 +1,10 @@
+Resources:
+- Subscription: 
+- Synapse workspace: iva-poc-synapse
+
+Infrastrcurue:
+- Platform: Synapse Analytics
+- Serverless spark pool 
+- Files format: 
+   - Inbound files: parquet
+   - Outound files: 
