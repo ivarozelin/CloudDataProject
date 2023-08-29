@@ -1,6 +1,11 @@
 # CloudDataProject
-This repository is used for POC data projects that include:
-- Documentation
-- Links with etails to the cloud solution
+This repository is used for collecting the following information:
+- Documentation with requirements
+- POC documenation with high level proposal of an analytics solution
+- ETL proposal process
+- Test Scenario
+  
+
+  
   
     
