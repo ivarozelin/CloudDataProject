@@ -1,0 +1,16 @@
+Resources:
+- Subscription: 
+- Synapse workspace: iva-poc-synapse
+
+Infrastrcurue:
+- Platform: Synapse Analytics
+- Serverless spark pool 
+- Files format: 
+   - Inbound files: parquet
+   - Outound files: parquet
+
+Pre-requisites:
+- Primary data source files in CSV format
+
+Data:
+  - Primary data sources files are imported in CSV format and converted into a parquet file in Synapse notebook #####
