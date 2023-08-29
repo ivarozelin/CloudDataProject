@@ -1,2 +1,2 @@
-#Data
+Data
 Primary data sources files are imported in CSV format and converted into a parquet file in Synapse notebook #####
