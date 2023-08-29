@@ -1,2 +1,2 @@
 Data
-Data sources files are uploaded in CSV by each the 3rd party vendor in Azure Blob Storage "clouddataprojectpoc" in container "inbound"
+Data sources files are uploaded in CSV format in Azure Data Lake Gen2 in folder Data/Inbound Data.
