@@ -1,2 +1,2 @@
 Data
-Primary data sources files are imported in CSV format and converted into a parquet file in Synapse notebook #####
+Data sources files are uploaded in CSV by each the 3rd party vendor in Azure Blob Storage "clouddataprojectpoc" in container "inbound"
