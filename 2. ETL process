@@ -1,2 +1,12 @@
-Data
-Data sources files are uploaded in CSV format in Azure Data Lake Gen2 in folder Data/Inbound Data.
+Data flow
+1. Raw data sources files are uploaded in parquet format in Azure Data Lake Gen2 in folder Data/PrimaryData.
+    The files are validated against the following conditions:
+      - file has header row
+      - the mandaoty columns are presented in the file
+  If files are valid,
+     - correct schema is imposed
+     - files are converted into CSV format
+     - files are saved in Azure Data Lake Gen2 in folder Data/InboundData
+If files are invalid,
+     - Error file is created in Azure Data Lake Gen2 in folder Data/Errors
+
