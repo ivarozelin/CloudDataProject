@@ -13,7 +13,7 @@
 
 # Architecture proposal
 Analyzing the needs of the stakeholders,the budget, the existing resurces, the infracture and the data, we recommend a solution that uses Platfor-as-a-Service (PaaS). Hving in mind that the desired outut of the data aims to be used for analyzes from the BI teams and the sales managers, our recommendation is to use Microsoft Azure cloud enabling the Azure Synapse Analytics service.
-## Infrastrucutre: 
+## Infrastructure: 
 Azure as Platform-as-a-Service.
 - Required Services: the below listed services must be set up for a fully operational enviroment
   - Azure Subscription and Resource Group: to be created and organise logically to macth the company`s related services.
@@ -26,8 +26,17 @@ Azure as Platform-as-a-Service.
   - Azure Logic Apps: to build workflows to automate business processes and integrate services.
   - Synapse Analytics workspace: to be created for ETL purposes
 
-## Data Flow proposal
 ## ETL process proposal
+![image](https://github.com/ivarozelin/CloudDataProject/assets/134283235/65285f74-7d96-4884-a5bd-25fb288e111f)
+
+- Web Ui is client based interface that will be connected to Azure Blob Storage throughout Azure Logic Apps.
+- Azure Blob storage to be organized in containers as follows:
+  - data - generic conatiner that includes the rest of the containers
+  - primarydata - will host the original files obtained from the Web Ui
+  - inbound - will host the validated files
+  - outbound - will host the transformed files
+  - errorlog - will host the error files as a result of the primary data validation
+
 
   
 
